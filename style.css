@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+#my_navigation .logo {
+  width: 200px;
+  height: 50px;
+}
+
+.slider {
+  width: 100%;
+  height: 60vh !important;
+}
+.slider img {
+  width: 100% !important;
+  height: 60vh;
+}
+#slider_caption {
+  position: absolute !important;
+  top: 170px !important;
+  z-index: 100 !important;
+}
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: gray;
+}
+.ease_section1 p {
+  font-size: 1.2rem;
+}
+.box1 {
+  width: 100%;
+}
+.box1 img {
+  width: 20%;
+}
+.box1 h2 {
+  font-size: 1.3rem;
+  margin: 8px 0;
+}
+.build_section {
+  width: 100%;
+}
+.build_img {
+  width: 100%;
+}
+.build_section .build_img img {
+  width: 100% !important;
+}
+.bg_section {
+  width: 100%;
+  height: 400px;
+  background-image: url("./img/mac.png");
+  background-attachment: fixed;
+  position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.collapse_section {
+  /* background-color: red; */
+}
+.collapse_section img {
+  width: 100%;
+}
+.philosofy_section img {
+  width: 100%;
+}
+.connect_section i {
+  font-size: 5rem;
+  margin: 1rem 2rem;
+}
+.connect_section i:hover {
+  cursor: pointer !important;
+}
+.connect_section .fb {
+  color: rgb(4, 52, 97);
+}
+.connect_section .twitter {
+  color: rgb(17, 116, 209);
+}
+.connect_section .google {
+  color: rgb(243, 17, 47);
+}
+.connect_section .insta {
+  color: rgb(160, 62, 108);
+}
+.connect_section .youtube {
+  color: rgb(94, 6, 6);
+}
+.footer_section img {
+  width: 200px;
+}
+.footer_section h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.collapse_section {
+  background-color: lightgray;
+}
+@media only screen and (max-width: 428px) {
+  html {
+    font-size: 14px;
+  }
+  #slider_caption {
+    top: 90px !important;
+  }
+}
